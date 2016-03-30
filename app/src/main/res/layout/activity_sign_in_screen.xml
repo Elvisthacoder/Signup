@@ -19,6 +19,25 @@
         android:padding="10dp"
         >
 
-        
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:hint="Email"
+        android:textColorHint="#cccccc"
+        />
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="-2dp"
+        android:padding="10dp"
+        android:hint="Password"
+        android:textColorHint="#cccccc"
+        android:password="true"
+        />
 
     </RelativeLayout>
